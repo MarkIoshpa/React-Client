@@ -133,7 +133,7 @@ class TrainersList extends Component {
 
   // handle changes to age input
   handleChangeAge(event){
-      this.setState({trainers: [], age: new Number(event.target.value)}, () => {
+      this.setState({trainers: [], age: parseInt(event.target.value)}, () => {
         let url = 'https://trainers-managing.herokuapp.com/getTrainersByAgeSportType?age=' + this.state.age + '&sportType=' + this.state.sport
         this.fetchData(url)
       })

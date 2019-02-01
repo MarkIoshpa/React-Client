@@ -1,6 +1,7 @@
 {
   "name": "react1",
   "version": "0.1.0",
+  "homepage": "http://shenkar.html5-book.co.il",
   "private": true,
   "dependencies": {
     "react": "^16.7.0",

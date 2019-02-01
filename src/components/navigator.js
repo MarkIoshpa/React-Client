@@ -8,13 +8,13 @@ class Navigator extends Component {
       <div className="navbar navbar-expand-lg navbar-light bg-light">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link className="nav-link" to={'/'}>Home</Link>
+            <Link className="nav-link" to={'/2018-2019/dcs/dev_179/'}>Home</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to='/sport'>Trainers by Sport</Link>
+            <Link className="nav-link" to='/2018-2019/dcs/dev_179/sport'>Trainers by Sport</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to='/championship'>Manage Championships</Link>
+            <Link className="nav-link" to='/2018-2019/dcs/dev_179/championship'>Manage Championships</Link>
           </li>
         </ul>
     </div>

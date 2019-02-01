@@ -15,13 +15,13 @@ const ReactRouter = () => {
         <React.Fragment>
             <Header/>
             <Navigator/>
-            <Route exact path='/' render={(props) => 
+            <Route exact path='/2018-2019/dcs/dev_179/' render={(props) => 
                 <TrainersList 
                     {...props} url={urlAll} 
                     title={'Home'} 
                 />
             }/>
-            <Route exact path={'/sport'} render={(props) => 
+            <Route exact path={'/2018-2019/dcs/dev_179/sport'} render={(props) => 
                 <TrainersList 
                     {...props} 
                     url={urlSportAge}
@@ -30,7 +30,7 @@ const ReactRouter = () => {
                 >
             </TrainersList>}
             />
-            <Route exact path='/championship' render={(props) => 
+            <Route exact path='/2018-2019/dcs/dev_179/championship' render={(props) => 
                 <TrainersList 
                     {...props} 
                     url={urlAll} 

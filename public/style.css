@@ -1,0 +1,64 @@
+#root { 
+    margin-left: 8%;
+    width: 80%;
+    height: 1000px;
+    display: block;
+    overflow: auto;
+    background-color: #204080;
+}
+
+.trainer{
+    background-image: url('./images/seperator.png');
+    background-repeat: no-repeat;
+    background-position-y: 52px;
+}
+
+.trainer h2{
+    margin: 0;
+}
+
+.trainer h3{
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.trainer h4{
+    margin-top: 15px;
+    color: #5050A0;
+}
+
+.trainer h5{
+    margin-top: 5px;
+    color: #5050F0;
+}
+
+.nav-item {
+    padding-right: 30px;
+}
+
+.card{
+    width: 21rem; 
+    height: 13rem;
+    margin-bottom: 7px;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    background-color: #FFFBF0;
+}
+
+.location{
+    color: #AFAFFF;
+    padding: 24px;
+    font-size: 32px;
+    font-family: Aileron;
+}
+
+.trainersSelect {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.trainersSelect input{
+    width: 100px;
+    margin-left: 10px;
+}
